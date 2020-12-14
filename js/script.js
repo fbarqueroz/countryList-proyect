@@ -48,6 +48,7 @@ function countriesInfo(countriesData) {
       hideContent.style.display = 'block'; // Al dar click al titulo, el contenido se muestra
 
       // Evento del boton de cerrar
+      // Al hacer click, se oculta la informacion del país
       const buttonContent = document.getElementById('button');
       buttonContent.addEventListener('click', () => {
         hideContent.style.display = 'none';
