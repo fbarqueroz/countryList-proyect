@@ -1,4 +1,10 @@
 /*styles sheet sass*/
+#form {
+  margin: 0 auto;
+  text-align: center;
+}
 
-
-@import 'partials/form.scss';
+#countryList {
+  list-style: none;
+  text-align: center;
+}
